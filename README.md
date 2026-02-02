@@ -68,13 +68,21 @@ Raw CSV
 
 ## โครงสร้างโปรเจค (Project Structure)
 data/
+
 ├── raw/
+
 ├── processed/
+
 notebooks/
+
 ├── 01_data_cleaning.ipynb
+
 ├── 02_data_modeling.ipynb
+
 ├── 03_analysis.ipynb
+
 sql/
+
 ├── analytics_queries.sql
 
 ## แนวทางพัฒนาต่อ (Future Improvements)
