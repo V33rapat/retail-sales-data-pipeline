@@ -67,3 +67,20 @@ Raw CSV
 - สามารถนำผลการวิเคราะห์ไปใช้ในการตัดสินใจเชิงธุรกิจได้
 
 ## โครงสร้างโปรเจค (Project Structure)
+data/
+├── raw/
+├── processed/
+notebooks/
+├── 01_data_cleaning.ipynb
+├── 02_data_modeling.ipynb
+├── 03_analysis.ipynb
+sql/
+├── analytics_queries.sql
+
+## แนวทางพัฒนาต่อ (Future Improvements)
+- เพิ่ม Data Quality Check และ Logging
+- รองรับการโหลดข้อมูลแบบ Incremental
+- เชื่อมต่อ Dashboard เช่น Power BI หรือ Tableau
+
+## ผู้จัดทำ (Author)
+Veerapat Visaidsombat
